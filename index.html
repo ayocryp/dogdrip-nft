@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dogdrip</title>
+    
+    <title>DogDrip</title>
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="/css/style.css">
+    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Nav -->
-    <nav class="navbar navbar-expand-lg py-4 navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <div class="container navbar-custom-container">
             <a class="navbar-brand navbar-custom-brand" href="#">DogDrip</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            <button class="navbar-toggler navbar-custom-hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon navbar-custom-hamburger"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav text-center navbar-custom-nav">
@@ -27,12 +34,55 @@
                     <a class="nav-link navbar-custom-items" href="#">FAQ</a>
                     <a class="nav-link navbar-custom-items" href="#">AFFILIATE</a>
                 </div>
+                <div class="navbar-nav ms-auto connect-ctn">
+                    <button class="connect">Connect wallet</button>
+                </div>
             </div>
         </div>
     </nav>
 
+    <!-- hero -->
+    <section id="hero">
+        <div class="container">
+            <div class="row justify-content-center align-items-center pt-5">
+                <div class="col-md-5 mt-5">
+                   <div>
+                    <h1 class="hero_title">
+                        10,000 COLLECTION OF DOGDRIP NFT  
+                    </h1>
+                   </div>
+                    <div>
+                        <p class="my-5">
+                            A collection of 10,000 cute dogs living in the web3, paving multiple income.
+                            A project more than just art but multiple passive income opportunities for people throughout the world.
+                             <span class="about_span">Join our community to learn more</span> about DogDrip.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 mx-5 mt-5">
+                    <div class="dog_container">
+                        <img class="img-fluid" src="/assets/dog.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about_us">
+        <div>
+            <h1>ABOUT US</h1>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            
+        </div>
+    </section>
+
+
+
 
     <script src="/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
