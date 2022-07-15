@@ -1,8 +1,162 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.navbar-custom{
-    background-color: black;
+
+body{
+    overflow-x: hidden;
+}
+
+:root {
+  --white: #e8eaea;
+  --green: #07fea3;
+  --gray: #030D12;
+  --dark-grey: #11181E;
+  --primary-font: "Bakbak One", cursive;
+}
+
+/* navbar start*/
+.navbar-custom {
+  background-color: var(--dark-grey);
+  font-family: "Bakbak One", cursive;
+  overflow: hidden;
+}
+
+.navbar-custom-nav {
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.navbar-custom-nav a {
+  color: var(--white);
+}
+
+.navbar-custom-nav a:hover {
+  color: var(--green);
+}
+.navbar-custom-nav a:focus {
+  color: var(--green);
+}
+
+.navbar-custom-items {
+  margin: 5%;
+}
+
+
+/* Wallet connect start */
+.connect-ctn {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.connect {
+  background: var(--green);
+  color: var(--gray);
+  border: none;
+  text-align: center;
+  width: 125px;
+  height: 45px;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px var(--gray);
+}
+.connect:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--white);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.connect:hover, .connect:focus, .connect:active {
+    color: var(--dark-grey);
+  }
+  .connect:hover:before, .connect:focus:before, .connect:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  } 
+/* Wallet connect end */
+
+
+
+
+/* Hero start */
+
+#hero{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background: url(/assets/bg/v5-baner5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+}
+
+.hero_title{
+    font-family: var(--primary-font);
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.about_span{
+   color: var(--green);
+}
+
+.dog_container{
+    width: 90%;
+    height: 90%;
+    border: 10px dotted var(--gray);
+}
+
+
+
+/* About us */
+
+#about_us{
+    text-align: center;
+    background: url(/assets/bg/h1_about_us_bg.png);
+    padding: 5%;
+}
+
+#about_us h1{
+    margin: 3%;
+}
+
+.about_subtitle{
+  font-family: var(--primary-font);
+  font-size: 40px;
+  text-align: left;
+  color: var(--green);
+}
+
+.about_text {
+  /* font-family: var(--primary-font); */
+  color: whitesmoke;
+  text-align: left;
+  margin-top: 5%;
+  font-size: 18px;
+  
+}
+
+.about_text p{
+  /* padding: 2% 0; */
+  text-align: left;
 }

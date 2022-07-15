@@ -14,7 +14,7 @@ body {
 }
 
 #logo {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #unorder-list {
@@ -44,7 +44,7 @@ body {
 #hero {
   padding: 13% 0%;
   text-align: center;
-  background-color: #030d12;
+  background-image: url(/assets/bg/banner_bg_3.jpg);
 }
 
 .heading-container {
@@ -53,6 +53,11 @@ body {
 
 .heading-text {
   color: #07fea3;
+  padding: 0% 4%;
+}
+
+.heading-span {
+  color: #e8eaea;
 }
 
 .sub-heading-text {
@@ -86,4 +91,56 @@ body {
   text-decoration: none;
   font-size: 18px;
   color: #030d12;
+}
+
+.button:hover{
+    background-color: aquamarine;
+    color: #5b5f5f;
+}
+
+
+
+/* Second section */
+
+#work-flow-main-container {
+  text-align: center;
+  padding: 8% 5%;
+  background-image: url(/assets/bg/banner-bg4.jpg);
+}
+
+.work-inner-main-container {
+  display: flex;
+}
+
+.box {
+  padding: 10% 4%;
+}
+
+.box-body {
+  margin-top: 10px;
+  padding: 0% 5%;
+}
+.icon {
+  color: #07fea3;
+  font-size: 50px;
+}
+
+.box-heading {
+  color: whitesmoke;
+}
+.box-text{
+    color: #5b5f5f;
+}
+
+.box {
+  margin: 8px;
+  padding: 2% 4%;
+  border-radius: 5px;
+}
+
+/* Mobile */
+@media screen and (max-width: 900px) {
+  .work-inner-main-container {
+    flex-direction: column;
+  }
 }
