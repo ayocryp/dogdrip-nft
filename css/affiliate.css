@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bakbak One", cursive;
+}
+
+body {
+  font-family: "Bakbak One", cursive;
+}
+
+#navigation {
+  background-color: #11181e;
+}
+
+#logo {
+  font-size: 35px;
+}
+
+#unorder-list {
+  margin-left: 10%;
+}
+
+#menu-item {
+  color: white;
+}
+
+.nav-item {
+  margin: 12px;
+}
+
+#sign-in-button {
+  border: 1px solid #07fea3;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-decoration: none;
+
+  background-color: #07fea3;
+  color: #030d12;
+}
+
+/* Starting */
+
+#hero {
+  padding: 13% 0%;
+  text-align: center;
+  background-color: #030d12;
+}
+
+.heading-container {
+  margin-bottom: 8px;
+}
+
+.heading-text {
+  color: #07fea3;
+}
+
+.sub-heading-text {
+  color: #e8eaea;
+}
+.description-container {
+  padding: 1% 10%;
+  margin-bottom: 8px;
+}
+
+.description-text {
+  color: white;
+  padding: 0% 8%;
+}
+
+/* .button-main-container{
+    display: flex;
+    justify-content: center;
+
+} */
+
+.button-container {
+  margin: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  /* border: 1px solid #07FEA3; */
+  border-radius: 5px;
+  background-color: #07fea3;
+  text-decoration: none;
+  font-size: 18px;
+  color: #030d12;
+}
