@@ -20,7 +20,7 @@ body{
 .navbar-custom {
   background-color: var(--dark-grey);
   font-family: "Bakbak One", cursive;
-  position: fixed;
+  overflow: hidden;
 }
 
 .navbar-custom-nav {
@@ -132,8 +132,31 @@ body{
 
 #about_us{
     text-align: center;
+    background: url(/assets/bg/h1_about_us_bg.png);
+    padding: 5%;
 }
 
 #about_us h1{
-    margin: 5%;
+    margin: 3%;
+}
+
+.about_subtitle{
+  font-family: var(--primary-font);
+  font-size: 40px;
+  text-align: left;
+  color: var(--green);
+}
+
+.about_text {
+  /* font-family: var(--primary-font); */
+  color: whitesmoke;
+  text-align: left;
+  margin-top: 5%;
+  font-size: 18px;
+  
+}
+
+.about_text p{
+  /* padding: 2% 0; */
+  text-align: left;
 }
