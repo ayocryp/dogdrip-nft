@@ -123,6 +123,12 @@ body{
 .about_span{
    color: var(--green);
    cursor: pointer;
+   
+}
+.about_span a{
+   color: var(--green);
+   cursor: pointer;
+   text-decoration: none;
 }
 
 .dog_container{
@@ -150,17 +156,19 @@ body{
 
 .about_subtitle{
   font-family: var(--primary-font);
-  font-size: 40px;
+  font-size: 45px;
   text-align: left;
   color: var(--green);
 }
 
 .about_text {
-  color: whitesmoke;
+  color: var(--gray);
   text-align: left;
   margin-top: 5%;
-  font-size: 18px;
+  font-size: 19px;
   cursor: pointer;
+  font-family: var(--primary-font);
+  
 }
 
 .about_text p{
