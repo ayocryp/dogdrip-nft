@@ -11,6 +11,7 @@ body {
 
 #navigation {
   background-color: #11181e;
+  padding: 20px 0px;
 }
 
 #logo {
@@ -29,15 +30,42 @@ body {
   margin: 12px;
 }
 
-#sign-in-button {
+/* .nav-sign-in-button {
   border: 1px solid #07fea3;
   padding: 2px 8px;
   border-radius: 3px;
   text-decoration: none;
-
   background-color: #07fea3;
   color: #030d12;
 }
+
+#nav-sign-in-button:hover{
+    background-color: aquamarine;
+    color: #5b5f5f;
+} */
+
+
+
+.register-container{
+    margin-left: auto;
+}
+
+
+.register-button{
+    border: 1px solid #07fea3;
+    padding: 2px 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: #07fea3;
+    color: #030d12;
+  }
+
+  .register-button:hover:hover{
+    background-color: aquamarine;
+    color: #5b5f5f;
+}
+
+
 
 /* Starting */
 
@@ -54,6 +82,7 @@ body {
 .heading-text {
   color: #07fea3;
   padding: 0% 4%;
+  font-size: 35px;
 }
 
 .heading-span {
@@ -138,9 +167,43 @@ body {
   border-radius: 5px;
 }
 
+
+
+/* Last section */
+
+#last-section{
+    background-image: url(/assets/bg/banner_bg_3.jpg);
+    padding: 5%;
+
+}
+
+
+h1{
+    color: white;
+}
+
+
+
+
+
 /* Mobile */
 @media screen and (max-width: 900px) {
   .work-inner-main-container {
     flex-direction: column;
   }
+
+  #hero{
+    padding: 15% 0%;
+  }
+
+  .sign-in-button-container{
+}
+
+
+.register-container{
+    margin-top: 15px;
+   
+}
+
+    
 }
