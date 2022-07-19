@@ -4,15 +4,15 @@
   margin: 0;
 }
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
 :root {
   --white: #e8eaea;
   --green: #07fea3;
-  --gray: #030D12;
-  --dark-grey: #11181E;
+  --gray: #030d12;
+  --dark-grey: #11181e;
   --primary-font: "Bakbak One", cursive;
 }
 
@@ -20,29 +20,38 @@ body{
 .navbar-custom {
   background-color: var(--dark-grey);
   font-family: "Bakbak One", cursive;
-  overflow: hidden;
+}
+#navbar-custom{
+  background-color: var(--dark-grey);
+  color: var(--white);
+
+}
+#navbar-custom-brand{
+  color: var(--green);
+ font-family: var(--primary-font);
+ font-size: 30px;
 }
 
-.navbar-custom-nav {
+
+#navbar-custom-nav {
   font-size: 20px;
   margin-left: 5%;
 }
 
-.navbar-custom-nav a {
+#navbar-custom-nav a {
   color: var(--white);
 }
 
-.navbar-custom-nav a:hover {
+#navbar-custom-nav a:hover {
   color: var(--green);
 }
-.navbar-custom-nav a:focus {
+#navbar-custom-nav a:focus {
   color: var(--green);
 }
 
 .navbar-custom-items {
   margin: 5%;
 }
-
 
 /* Wallet connect start */
 .connect-ctn {
@@ -68,93 +77,92 @@ body{
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px var(--gray);
 }
-.connect:before{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: var(--white);
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
+.connect:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--white);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
-.connect:hover, .connect:focus, .connect:active {
-    color: var(--dark-grey);
-  }
-  .connect:hover:before, .connect:focus:before, .connect:active:before {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  } 
+.connect:hover,
+.connect:focus,
+.connect:active {
+  color: var(--dark-grey);
+}
+.connect:hover:before,
+.connect:focus:before,
+.connect:active:before {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
 /* Wallet connect end */
-
-
-
 
 /* Hero start */
 
-#hero{
-    width: 100%;
-    height: 100%;
-    padding: 5%;
-    background: url(/assets/bg/v5-baner5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: var(--white);
+#hero {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  background: url(/assets/bg/v5-baner5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
 }
 
-.hero_title{
-    font-family: var(--primary-font);
-    font-size: 60px;
-    text-transform: capitalize;
-    cursor: pointer;
-}
-.hero_text{
+.hero_title {
+  font-family: var(--primary-font);
+  font-size: 60px;
+  text-transform: capitalize;
   cursor: pointer;
 }
-.about_span{
-   color: var(--green);
-   cursor: pointer;
-   
-}
-.about_span a{
-   color: var(--green);
-   cursor: pointer;
-   text-decoration: none;
+.hero_text {
+  cursor: pointer;
 }
 
-.dog_container{
-    width: 90%;
-    height: 90%;
-    border: 10px dotted var(--gray);
-    cursor: pointer;
+.about_span {
+  color: var(--green);
+  cursor: pointer;
+}
+.about_span a {
+  color: var(--green);
+  cursor: pointer;
+  text-decoration: none;
 }
 
-
+.dog_container {
+  width: 90%;
+  height: 90%;
+  border: 10px dotted var(--gray);
+  cursor: pointer;
+}
 
 /* About us */
 
-#about_us{
-    text-align: center;
-    background: url(/assets/bg/h1_about_us_bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 1%;
+#about_us {
+  text-align: center;
+  background: url(/assets/bg/h1_about_us_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1%;
 }
 
-#about_us h1{
-    margin: 3%;
+#about_us h1 {
+  margin: 3%;
 }
 
-.about_subtitle{
+.about_subtitle {
   font-family: var(--primary-font);
   font-size: 45px;
   text-align: left;
@@ -162,26 +170,25 @@ body{
 }
 
 .about_text {
-  color: var(--gray);
+  color: var(--white);
   text-align: left;
   margin-top: 5%;
-  font-size: 19px;
+  font-size: 21px;
   cursor: pointer;
   font-family: var(--primary-font);
-  
 }
 
-.about_text p{
+.about_text p {
   cursor: pointer;
   text-align: left;
 }
 
-.about_box_ctn{
+.about_box_ctn {
   margin: 10%;
   cursor: pointer;
 }
 
-.about_box{
+.about_box {
   padding: 3%;
   margin: 2%;
   background: #31313144;
@@ -189,42 +196,151 @@ body{
   font-family: var(--primary-font);
   cursor: pointer;
 }
-.about_box h2{
+.about_box h2 {
   text-align: left;
   cursor: pointer;
 }
 
-.about_box_text{
+.about_box_text {
   text-align: left;
   cursor: pointer;
 }
 
- .divider{
+.divider {
   color: var(--white);
   height: 8px;
 }
 
 /* Collection section */
 
-#collection{
+#collection {
   padding: 10%;
   background: url(/assets/bg/v1_footer_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-.collect_title{
+.collect_title {
   text-align: center;
   font-family: var(--primary-font);
   color: var(--green);
 }
 
-.collection_text{
+.collection_text {
   width: 100%;
   margin-top: 4%;
   font-family: var(--primary-font);
   color: var(--white);
-  text-align: left;
 }
-.collection_text p{
+.collection_text p {
   text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+  .navbar-custom-brand{
+    margin: 3%;
+  }
+  #navbar-custom-brand{
+    color: var(--green);
+   font-family: var(--primary-font);
+   font-size: 20px;
+  }
+
+  .connect-ctn {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .connect {
+    background: var(--green);
+    color: var(--gray);
+    border: none;
+    text-align: center;
+    width: 155px;
+    height: 45px;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px var(--gray);
+  }
+
+  #hero {
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    background: url(/assets/bg/v5-baner5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+  }
+  
+  .hero_title {
+    font-family: var(--primary-font);
+    font-size: 35px;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 9%;
+  }
+  .hero_text {
+    font-size: 15px;
+    text-align: center;
+
+  }
+
+  .dog_container {
+    width: 200px;
+    height: 200px;
+    border: 10px dotted var(--gray);
+    cursor: pointer;
+    text-align: center;
+    margin: 0 5% 15% 18%;
+    padding: 5%;
+  }
+
+  /* About us start */
+  .about_subtitle{
+    text-align: center;
+  }
+
+  .about_text {
+    color: var(--white);
+    text-align: center;
+    margin-top: 5%;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: var(--primary-font);
+  }
+  
+  .about_text p {
+    cursor: pointer;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.18);
+    padding: 5%;
+  }
+  .about_box{
+    margin: 10%;
+  }
+  
+  .collection_text {
+    width: 100%;
+    margin-top: 4%;
+    padding: 3%;
+    font-family: var(--primary-font);
+    color: var(--white);
+  }
+  .collection_text p {
+    text-align: center;
+  }
 }
