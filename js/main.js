@@ -15,3 +15,5 @@ setInterval(function () {
     let random = Math.floor(Math.random() * 8);
     img.src = imageData[random]
 }, 400)
+
+
