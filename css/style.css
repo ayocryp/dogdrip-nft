@@ -291,11 +291,12 @@ body {
     text-transform: capitalize;
     cursor: pointer;
     text-align: center;
-    /* margin-top: 5%; */
+    margin-top: 9%;
   }
   .hero_text {
     font-size: 15px;
     text-align: center;
+
   }
 
   .dog_container {
@@ -305,6 +306,7 @@ body {
     cursor: pointer;
     text-align: center;
     margin: 0 5% 15% 18%;
+    padding: 5%;
   }
 
   /* About us start */
