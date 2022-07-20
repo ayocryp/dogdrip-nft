@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --white: #e8eaea;
   --green: #07fea3;
@@ -171,8 +175,9 @@ body {
 
 .about_text {
   color: var(--white);
-  text-align: left;
+  text-align: center;
   margin-top: 5%;
+  padding: 2%;
   font-size: 21px;
   cursor: pointer;
   font-family: var(--primary-font);
@@ -343,4 +348,17 @@ body {
   .collection_text p {
     text-align: center;
   }
+}
+.gallery_ctn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  margin-top: 7%;
+}
+.gallery_inner_ctn img{
+  width: 100%;
+  height: fit-content;
 }
