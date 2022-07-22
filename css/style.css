@@ -290,7 +290,6 @@ html{
 }
 
 .launch_date{
-  /* background: #11181e70; */
   margin-top: 15%;
   
 }
@@ -303,10 +302,38 @@ html{
   font-size: 25px;
 }
 
+/* Roadmap starts */
+#roadmap{
+  font-family: var(--primary-font);
+  background: var(--gray);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+
+}
+
+.roadmap_title{
+margin-bottom: 3%;
+  text-align: center;
+  color: var(--white);
+  font-size: 45px;
+}
+
+.roadmap_heading h5 a{
+  color: var(--green);
+  text-decoration: none;
+  }
+  
+
+ .dogdrip_roadmap_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    color: var(--white);
+}
 
 
-
-
+/* Mobile */
 
 @media screen and (max-width: 900px){
   .navbar-custom-brand{
