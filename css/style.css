@@ -373,7 +373,6 @@ html{
     height: 200px;
     border: 10px dotted var(--gray);
     cursor: pointer;
-    text-align: center;
     margin: 0 5% 15% 18%;
     padding: 5%;
   }
@@ -402,6 +401,9 @@ html{
     margin: 10%;
   }
   
+  .collect_title{
+    font-size: 27px;
+  }
   .collection_text {
     width: 100%;
     margin-top: 4%;
@@ -419,12 +421,22 @@ html{
     margin-top: 15%;
     
   }
+  .launchDate_title h2{
+    font-size: 25px;
+  }
+  
+  .launchDate_inner_ctn {
+    border-radius: 20%;
+    width: 100px;
+    height: 9gitfggit0px;
+
+  }
   .launchDate_inner_ctn span{
     color: var(--white);
-    font-size: 20px;
+    font-size: 17px;
   }
   .launchDate_inner_ctn p{
     color: var(--green);
-    font-size: 15px;
+    font-size: 12px;
   }
 }
