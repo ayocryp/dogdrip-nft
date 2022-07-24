@@ -240,6 +240,24 @@ html {
 }
 
 
+.main-slider-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.slide-inner-container{
+  margin: 15px;
+}
+
+.nft-img{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 3px;
+}
+
 
 /* Roadmap starts */
 #roadmap {
@@ -532,4 +550,7 @@ html {
     height: 200px;
   }
   
+  .main-slider-container{
+    flex-direction: column;
+  }
 }
