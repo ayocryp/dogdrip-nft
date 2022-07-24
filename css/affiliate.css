@@ -135,7 +135,7 @@ body {
 
 #work-flow-main-container {
   text-align: center;
-  padding: 8% 5%;
+  padding: 10% 5%;
   background-image: url(/assets/bg/banner-bg4.jpg);
 }
 
@@ -172,8 +172,8 @@ body {
 /* Last section */
 
 #footer {
-  background-image: url(/assets/bg/footer_bg3.jpg);
-  padding: 15% 6%;
+  background-image: url(/assets/bg/banner_bg_3.jpg);
+  padding: 14% 6%;
 }
 .title-container {
   margin-bottom: 4em;
