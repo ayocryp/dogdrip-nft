@@ -136,7 +136,9 @@ body {
 #work-flow-main-container {
   text-align: center;
   padding: 10% 5%;
-  background-image: url(/assets/bg/banner-bg4.jpg);
+  background: url(/assets/bg/banner_bg_3.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .work-inner-main-container {
@@ -172,7 +174,6 @@ body {
 /* Last section */
 
 #footer {
-  background-image: url(/assets/bg/banner_bg_3.jpg);
   padding: 14% 6%;
 }
 .title-container {
@@ -185,6 +186,7 @@ body {
   text-align: center;
   line-height: 1.4;
   font-weight: bold;
+  font-size: 45px;
 }
 
 .discord-link-container {
@@ -213,7 +215,7 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   padding: 15px 15px;
-  background-color: var(--green);
+  background-color: var(--white);
   justify-content: center;
 }
 

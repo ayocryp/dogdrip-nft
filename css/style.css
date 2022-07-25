@@ -239,25 +239,23 @@ html {
   text-align: center;
 }
 
-
-.main-slider-container{
+.main-slider-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 3%;
 }
 
-.slide-inner-container{
+.slide-inner-container {
   margin: 15px;
 }
 
-.nft-img{
+.nft-img {
   width: 100%;
   border-radius: 10px;
   border: 2px solid white;
   padding: 3px;
 }
-
 
 /* Roadmap starts */
 #roadmap {
@@ -282,7 +280,7 @@ html {
   align-items: center;
   width: 100%;
 }
-.timeline{
+.timeline {
   width: 100%;
   height: auto;
   max-width: 800px;
@@ -290,42 +288,40 @@ html {
   position: relative;
 }
 
-.timeline ul{
+.timeline ul {
   list-style: none;
-  
 }
 
-.timeline ul li{
+.timeline ul li {
   padding: 20px;
   background: var(--dark-grey);
   border-radius: 10px;
   margin-bottom: 20px;
   background: var(--white);
-  color: var(--dark-grey );
+  color: var(--dark-grey);
 }
 
-
-.timeline ul li:last-child{
+.timeline ul li:last-child {
   margin-bottom: 0;
 }
 
-.timeline_content h1{
+.timeline_content h1 {
   font-size: 35px;
   margin-bottom: 10px;
   color: var(--dark-grey);
 }
-.timeline_content p{
+.timeline_content p {
   font-size: 15px;
   font-weight: 100;
 }
-.timeline_content span{
+.timeline_content span {
   color: green;
   font-size: 25px;
 }
 
-.hi_slide{
+.hi_slide {
   width: 100%;
-  height:392px;
+  height: 392px;
   margin: 100px auto 0;
   display: flex;
   justify-content: center;
@@ -333,15 +329,56 @@ html {
   border: 2px solid var(--green);
 }
 
- .hi_slide > div > img{
+.hi_slide > div > img {
   width: 100%;
   height: 60%;
   padding: 5%;
- }
+}
+
+/* Launch countdown */
+.launch_title h2 {
+  font-family: var(--primary-font);
+  color: var(--white);
+  margin-bottom: 0;
+  margin-top: 15%;
+  font-size: 40px;
+  padding-left: 57px;
+}
+.countdown_ctn {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.countdown_item {
+  margin: 5%;
+  width: 180px;
+  height: 150px;
+  background: var(--green);
+  border: 5px solid var(--white);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countdown_content span {
+  font-size: 45px;
+}
+
+.countdown_content p {
+  font-size: 35px;
+  padding: 0 10px;
+  color: var(--gray);
+  border-radius: 5px;
+}
 /* Big screen and tabs */
 @media only screen and (min-width: 768px) {
-  .timeline::before{
-    content: '';
+  .timeline::before {
+    content: "";
     position: absolute;
     height: 100%;
     width: 2px;
@@ -349,26 +386,25 @@ html {
     background: var(--green);
     transform: translateX(-50%);
   }
-  .timeline ul li{
+  .timeline ul li {
     width: 50%;
     margin-bottom: 50px;
     position: relative;
   }
-  .timeline ul li:nth-child(odd){
+  .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
     transform: translateX(-30px);
     border-radius: 20px 0px 20px 20px;
   }
-  .timeline ul li:nth-child(even){
+  .timeline ul li:nth-child(even) {
     float: right;
-    clear:  left;
+    clear: left;
     transform: translateX(30px);
     border-radius: 0px 20px 20px 20px;
-
   }
-  .timeline ul li::after{
-    content: '';
+  .timeline ul li::after {
+    content: "";
     position: absolute;
     height: 15px;
     width: 15px;
@@ -376,19 +412,18 @@ html {
     border-radius: 50%;
     top: -7;
   }
-  .timeline ul li:hover::after{
+  .timeline ul li:hover::after {
     background: var(--green);
   }
 
-  .timeline ul li:nth-child(odd)::after{
-    transform: translateX(50%, -50%); 
+  .timeline ul li:nth-child(odd)::after {
+    transform: translateX(50%, -50%);
     right: -21.5px;
   }
-  .timeline ul li:nth-child(even)::after{
-    transform: translateX(-50%, -50%); 
+  .timeline ul li:nth-child(even)::after {
+    transform: translateX(-50%, -50%);
     left: -53px;
   }
-
 }
 
 /* mobile */
@@ -519,28 +554,27 @@ html {
     color: var(--green);
     font-size: 12px;
   }
-  .roadmap_title{
+  .roadmap_title {
     font-size: 40px;
     margin-top: 15%;
   }
-  .timeline{
+  .timeline {
     width: 800px;
     height: auto;
     text-align: center;
-
   }
-  
-  .timeline ul li{
+
+  .timeline ul li {
     padding: 20px;
     background: var(--dark-grey);
     border-radius: 10px;
     margin-bottom: 20px;
     background: var(--white);
-    color: var(--dark-grey );
+    color: var(--dark-grey);
     text-align: center;
   }
-  
-  .hi_slide{
+
+  .hi_slide {
     margin: 50px 0;
     display: flex;
     justify-content: center;
@@ -549,8 +583,8 @@ html {
     width: 300px;
     height: 200px;
   }
-  
-  .main-slider-container{
+
+  .main-slider-container {
     flex-direction: column;
   }
 }
