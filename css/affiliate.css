@@ -74,14 +74,14 @@ body {
 /* Starting */
 
 #hero {
-  padding: 13% 0%;
+  padding: 15% 0%;
   text-align: center;
   background-image: url(/assets/bg/banner_bg_3.jpg);
 }
 
 .heading-container {
   margin-bottom: 8px;
-  padding-top: 9%;
+  
 }
 
 .heading-text {
@@ -229,6 +229,11 @@ body {
 @media screen and (max-width: 900px) {
   #hero {
     padding: 15% 0%;
+  }
+
+  .heading-container {
+    padding-top: 15%;
+    
   }
 
   .work-inner-main-container {
