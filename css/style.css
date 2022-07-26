@@ -355,18 +355,20 @@ html {
 }
 
 .countdown_item {
-  margin: 5%;
+  margin: 3%;
   width: 180px;
   height: 150px;
   background: var(--green);
-  border: 5px solid var(--white);
+  border: 5px solid var(--gray);
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.811) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.866) 0px 18px 36px -18px inset;
 }
 .countdown_content span {
   font-size: 45px;
+  color: var(--gray);
 }
 
 .countdown_content p {
@@ -434,7 +436,42 @@ html {
   font-size: 45px;
 }
 
+/* Footer */
 
+#footer{
+  padding: 10%;
+  font-family: var(--primary-font);
+  background: url(/assets/bg/v1_footer_bg.png);
+}
+.footer_title{
+  text-align: center;
+  font-size: 55px;
+  color: var(--white);
+}
+
+.button_ctn{
+  text-align: center;
+  margin-top: 3%;
+} 
+
+.social_btn{
+  color: var(--gray);
+  background: var(--green);
+  padding: 10px 30px;
+  border: 2px solid var(--gray);
+}
+
+#copy{
+background: #060A0E;
+font-family: var(--primary-font);
+padding: 2px;
+color: var(--white);
+}
+.copy_item{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
 /* Big screen and tabs */
 @media only screen and (min-width: 768px) {
   .timeline::before {

@@ -4701,12 +4701,14 @@ textarea.form-control-lg {
 
 .accordion-header {
   margin-bottom: 0;
+  text-align: center;
 }
 
 .accordion-item {
   background-color: #030d12;
   border: 1px solid #e8eaea;
   color: #e8eaea;
+  text-align: center;
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
@@ -4734,6 +4736,7 @@ textarea.form-control-lg {
 
 .accordion-body {
   padding: 1rem 1.25rem;
+  text-align: center;
 }
 
 .accordion-flush .accordion-collapse {
