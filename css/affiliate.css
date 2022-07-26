@@ -20,7 +20,7 @@ body {
 
 #navigation {
   background-color: var(--dark-grey);
-  padding: 20px 0px;
+  padding: 15px 0px;
 }
 
 #logo {
@@ -81,6 +81,7 @@ body {
 
 .heading-container {
   margin-bottom: 8px;
+  padding-top: 9%;
 }
 
 .heading-text {
