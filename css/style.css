@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -319,6 +319,10 @@ html {
   font-size: 25px;
 }
 
+.timeline_content a{
+  text-decoration: none;
+  color: rgba(0, 51, 255, 0.615);
+}
 .hi_slide {
   width: 100%;
   height: 392px;
