@@ -82,3 +82,4 @@ $(".slide-inner-container").slick({
     },
   ],
 });
+
