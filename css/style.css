@@ -344,10 +344,9 @@ html {
 .launch_title h2 {
   font-family: var(--primary-font);
   color: var(--white);
-  margin-bottom: 0;
   margin-top: 15%;
   font-size: 40px;
-  padding-left: 57px;
+  
 }
 .countdown_ctn {
   display: flex;
@@ -577,24 +576,20 @@ color: var(--white);
 
   .hero_title {
     font-family: var(--primary-font);
-    font-size: 35px;
+    font-size: 47px;
     text-transform: capitalize;
     cursor: pointer;
     text-align: center;
-    margin-top: 9%;
+    
   }
   .hero_text {
     font-size: 15px;
     text-align: center;
+    margin-top: 5%;
   }
 
-  .dog_container {
-    width: 200px;
-    height: 200px;
-    border: 10px dotted var(--gray);
-    cursor: pointer;
-    margin: 0 5% 15% 18%;
-    padding: 5%;
+  #hero_ctn{
+    margin-top: 5%;
   }
 
   /* About us start */
@@ -630,9 +625,11 @@ color: var(--white);
     padding: 3%;
     font-family: var(--primary-font);
     color: var(--white);
+    
   }
   .collection_text p {
     text-align: center;
+    font-size: 16px;
   }
 
   .launch_date {
@@ -692,6 +689,8 @@ color: var(--white);
   /* mobile team */
   .team_ctn{
     padding-top: 5%;
+    width: 100%;
+    height: auto;
   }
   .team_inner_ctn h3{
     text-align: center;
@@ -706,6 +705,21 @@ color: var(--white);
     color: var(--white);
     text-align: center;
     font-size: 35px;
+  }
+
+  /* FAQ */
+  .faq_title h2{
+    text-align: center;
+    color: var(--white);
+    font-size: 35px;
+    padding-top: 5%;
+  }
+
+   /* Mobile footer */
+   .footer_title{
+    text-align: center;
+    font-size: 35px;
+    color: var(--white);
   }
 }
 
