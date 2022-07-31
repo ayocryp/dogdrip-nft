@@ -59,3 +59,16 @@
 #firsterror {
   color: red;
 }
+
+#last-name-error{
+  color: red;
+}
+
+#email-error{
+  color: red;
+}
+
+#password-error{
+  color: red;
+}
+
