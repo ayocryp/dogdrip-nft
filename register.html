@@ -25,7 +25,7 @@
 
 
                 <div class="mb-4">
-                    <input type="text" class="form-control" placeholder="First name" id="first-name" onkeyup="validateFirstName()">
+                    <input type="text" class="form-control" placeholder="First name" id="first-name" onkeyup="validate()">
 
 
                 </div>
@@ -35,31 +35,31 @@
                 </div>
 
                 <div class="mb-4">
-                    <input type="text" class="form-control" placeholder="Last name" onkeyup="validateLastName()">
+                    <input type="text" class="form-control" placeholder="Last name" id="last-name" onkeyup="validate()">
 
 
                 </div>
                 <div class="">
-                    <p class="last-name-error"></p>
+                    <p id="last-name-error"></p>
 
                 </div>
 
                 <div class="mb-4">
-                    <input type="email" class="form-control" placeholder="Email adress" onkeyup="validateEmail()" >
+                    <input type="email" class="form-control" id="email" placeholder="Email adress" onkeyup="validate()" >
 
 
                 </div>
 
                 <div>
-                    <p class="email-error"></p>
+                    <p id="email-error"></p>
                 </div>
 
                 <div class="mb-4">
-                    <input type="password" class="form-control" placeholder="Password" onkeyup="validatePassword()">
+                    <input type="password" class="form-control" id="password" placeholder="Password" onkeyup="validatePassword()">
                 </div>
 
                 <div>
-                    <p class="password-error"></p>
+                    <p id="password-error"></p>
                 </div>
 
                 <div class="button-container">
