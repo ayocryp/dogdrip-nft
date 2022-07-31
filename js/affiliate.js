@@ -42,7 +42,7 @@ function validateEmail(){
 
 function validatePassowrd() {
       let passwordValidate = document.getElementById("password").value;
-  if (passwordValidate.length === 0) {
+  if (passwordValidate.length == 0) {
     passwordError.innerHTML = " A password is required";
   } else {
     passwordError.innerHTML = "";
