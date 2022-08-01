@@ -83,3 +83,20 @@ $(".slide-inner-container").slick({
   ],
 });
 
+
+
+
+// Form validation
+
+const firstNameError = document.getElementById('first-name-error');
+const lastNameError = document.getElementById('last-name-error');
+const emailError = document.getElementById('email-error');
+const passwordError = document.getElementById('password-error');
+
+function validateFirstName(){
+  let firstName = document.getElementById('first-name').value;
+  if(firstName.length == 0){
+    console.log('Okay!');
+    return false;
+  }
+}

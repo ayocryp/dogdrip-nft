@@ -31,14 +31,14 @@
   border-radius: 5px;
 }
 
-.title{
-    color: var(--white);
+.title {
+  color: var(--white);
 }
-.text-container{
-    margin-bottom: 2em;
+.text-container {
+  margin-bottom: 2em;
 }
-.text{
-    color: var(--white);
+.text {
+  color: var(--white);
 }
 
 .button-container {
@@ -52,5 +52,23 @@
   color: var(--dark-grey);
   border-radius: 3px;
   background-color: var(--green);
-
 }
+
+/* Validation messages */
+
+#firsterror {
+  color: red;
+}
+
+#last-name-error{
+  color: red;
+}
+
+#email-error{
+  color: red;
+}
+
+#password-error{
+  color: red;
+}
+

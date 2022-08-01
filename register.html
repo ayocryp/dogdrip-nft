@@ -25,29 +25,45 @@
 
 
                 <div class="mb-4">
-                    <input type="text" class="form-control" placeholder="First name" required>
+                    <input type="text" class="form-control" placeholder="First name" id="first-name" onkeyup="validateFirstName()">
 
 
                 </div>
 
-                <div class="mb-4">
-                    <input type="text" class="form-control" placeholder="Last name" required>
+                <div>
+                    <p id="firsterror"></p>
+                </div>
 
+                <div class="mb-4">
+                    <input type="text" class="form-control" placeholder="Last name" id="last-name" onkeyup="validateLastName()">
+
+
+                </div>
+                <div class="">
+                    <p id="last-name-error"></p>
 
                 </div>
 
                 <div class="mb-4">
-                    <input type="email" class="form-control" placeholder="Email adress" required>
+                    <input type="email" class="form-control" id="email" placeholder="Email adress" onkeyup="validateEmail()" >
 
 
                 </div>
 
+                <div>
+                    <p id="email-error"></p>
+                </div>
+
                 <div class="mb-4">
-                    <input type="password" class="form-control" placeholder="Password" required>
+                    <input type="password" class="form-control" id="password" placeholder="Password" onkeyup="validatePassword()">
+                </div>
+
+                <div> 
+                    <p id="password-error"></p>
                 </div>
 
                 <div class="button-container">
-                    <a class="button" href="">Register</a>
+                    <button type="submit" class="button">Register</button>
                 </div>
 
 
@@ -65,6 +81,8 @@
      <script src="/bootstrap-5.1.3-dist/js/bootstrap.min.js">
 
     </script>
+
+    <script src="/js/affiliate.js"></script>
     
 </body>
 </html>
