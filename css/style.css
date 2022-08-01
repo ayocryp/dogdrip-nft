@@ -476,6 +476,8 @@ color: var(--white);
   font-size: 14px;
   margin-top: 10px;
 }
+
+
 /* Big screen and tabs */
 @media only screen and (min-width: 768px) {
   .timeline::before {
