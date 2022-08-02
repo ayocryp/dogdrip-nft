@@ -322,7 +322,15 @@ html {
 
 .timeline_content a{
   text-decoration: none;
-  color: rgba(0, 51, 255, 0.615);
+  color: rgba(49, 58, 51, 0.868);
+  text-decoration: wavy;
+  font-style: italic;
+}
+.timeline_content a:hover{
+  text-decoration: none;
+  color: rgba(49, 58, 51, 0.868);
+  text-decoration: wavy;
+  font-style: italic;
 }
 .hi_slide {
   width: 100%;
@@ -339,6 +347,28 @@ html {
   height: 60%;
   padding: 5%;
 }
+
+/* Mobile roadmap */
+.mobile_roadmap_ctn{
+  background: var(--white);
+  color: var(--gray);
+  margin: 8% 0;
+  border-radius: 10px;
+
+}
+.mobile_roadmap_inner{
+  padding: 2%;
+}
+
+.mobile_roadmap_inner span p{
+  color: hsl(158, 100%, 18%);
+}
+
+.mobile_roadmap_inner p a{
+  color: hsl(158, 100%, 18%);
+  text-decoration: none;
+}
+
 
 /* Launch countdown */
 .launch_title h2 {
