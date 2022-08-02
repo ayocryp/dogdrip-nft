@@ -50,7 +50,7 @@ function validatePassword() {
   }
 
   if ( passwordValidate.length < 8){
-    passwordError.innerHTML = "Password must 8 characters";
+    passwordError.innerHTML = "Password must be 8 characters";
   }
 
 
