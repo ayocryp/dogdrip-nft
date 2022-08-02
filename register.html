@@ -21,7 +21,7 @@
                 <p class="text">Create a new acount or  <a href="/login.html">login an existing account</a></p>
             </div>
 
-            <form action="">
+            <form action="" method="get">
 
 
                 <div class="mb-4">
@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="mb-4">
-                    <input type="password" class="form-control" id="password" placeholder="Password" onkeyup="validatePassword()">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" onkeyup="validatePassword()">
                 </div>
 
                 <div> 
@@ -63,7 +63,10 @@
                 </div>
 
                 <div class="button-container">
-                    <button type="submit" class="button">Register</button>
+                    <button type="submit" class="button"  onclick="return validateButton()">Register</button>
+                </div>
+                <div id="submit-error">
+
                 </div>
 
 

@@ -72,3 +72,9 @@
   color: red;
 }
 
+#submit-error{
+  color: 
+  red;
+  margin: 5%;
+  text-align: center;
+}
