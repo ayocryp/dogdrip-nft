@@ -55,48 +55,8 @@ function plusSlides(n) {
   showSlides((slideIndex += n));
 }
 
-// Slick carousel
-
-$(".slide-inner-container").slick({
-  centerMode: true,
-  centerPadding: "60px",
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 3,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 1,
-      },
-    },
-  ],
-});
 
 
 
 
-// Form validation
 
-const firstNameError = document.getElementById('first-name-error');
-const lastNameError = document.getElementById('last-name-error');
-const emailError = document.getElementById('email-error');
-const passwordError = document.getElementById('password-error');
-
-function validateFirstName(){
-  let firstName = document.getElementById('first-name').value;
-  if(firstName.length == 0){
-    console.log('Okay!');
-    return false;
-  }
-}
