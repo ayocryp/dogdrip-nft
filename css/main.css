@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  background-color: #030d12;
+}
+
+#nav-bg {
+  background-color: #11181e;
+}
+#nav-bg .logo {
+  text-decoration: none;
+  color: #07fea3;
+  font-size: 30px;
+  margin-right: 8%;
+}/*# sourceMappingURL=main.css.map */

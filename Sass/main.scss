@@ -1,0 +1,30 @@
+
+// Font
+// To be added here
+
+
+// Color
+$primary-color: #030d12;
+$secondary-color: #07fea3;
+$navbar: #11181e;
+$text: #e8eaea;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  background-color: $primary-color;
+}
+
+#nav-bg {
+  background-color: $navbar;
+  .logo {
+    text-decoration: none;
+    color: $secondary-color;
+    font-size: 30px;
+    margin-right: 8%;
+  }
+}
