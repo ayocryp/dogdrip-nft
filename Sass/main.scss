@@ -1,13 +1,9 @@
 
-// Font
-// To be added here
-
-
 // Color
-$primary-color: #030d12;
-$secondary-color: #07fea3;
-$navbar: #11181e;
-$text: #e8eaea;
+$Black: #030d12;
+$Green: #07fea3;
+$Dark-grey: #11181e;
+$white: #e8eaea;
 
 * {
   box-sizing: border-box;
@@ -16,15 +12,61 @@ $text: #e8eaea;
 }
 
 .background {
-  background-color: $primary-color;
+  background-color: $Black;
+  font-family: "Bakbak One", cursive;
 }
 
 #nav-bg {
-  background-color: $navbar;
+  background-color: $Dark-grey;
+  padding: 2% 0%;
   .logo {
     text-decoration: none;
-    color: $secondary-color;
+    color: $Green;
     font-size: 30px;
     margin-right: 8%;
   }
+}
+
+
+// Inner body starts
+
+#main-container{
+
+  margin: 4%;
+  
+
+  .card{
+    text-align: center;
+    border-radius: 15px;
+    padding: 0% 4%;
+
+
+    #profile-img{
+
+      border: 3px solid $Dark-grey;
+      border-radius: 18%;
+      width: 100%;
+      margin-top: 3%;
+
+    }
+  }
+
+  .card-2{
+    border-radius: 15px;
+    padding: 0% 2%;
+    
+    
+
+    .inner-card{
+
+      background-color: $Dark-grey;
+      color: $white;
+      padding: 6%;
+      border-radius: 10px;
+      margin: 3%;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    }
+  }
+  
 }

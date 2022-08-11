@@ -6,14 +6,43 @@
 
 .background {
   background-color: #030d12;
+  font-family: "Bakbak One", cursive;
 }
 
 #nav-bg {
   background-color: #11181e;
+  padding: 2% 0%;
 }
 #nav-bg .logo {
   text-decoration: none;
   color: #07fea3;
   font-size: 30px;
   margin-right: 8%;
+}
+
+#main-container {
+  margin: 4%;
+}
+#main-container .card {
+  text-align: center;
+  border-radius: 15px;
+  padding: 0% 4%;
+}
+#main-container .card #profile-img {
+  border: 3px solid #11181e;
+  border-radius: 18%;
+  width: 100%;
+  margin-top: 3%;
+}
+#main-container .card-2 {
+  border-radius: 15px;
+  padding: 0% 2%;
+}
+#main-container .card-2 .inner-card {
+  background-color: #11181e;
+  color: #e8eaea;
+  padding: 6%;
+  border-radius: 10px;
+  margin: 3%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }/*# sourceMappingURL=main.css.map */
