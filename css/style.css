@@ -472,16 +472,7 @@ html {
 
 /* Footer */
 
-.mint_form{
-  border: 2px solid var(--green);
-  border-radius: 20px;
-  width: 250px;
-  height: 500px;
-  background: url(/assets/dog3.png), url(/assets/dog7.png);
-  background-repeat: no-repeat;
-  background-size: 350px;
-  background-position: left, right;
-}
+
 .mint_form p{
   text-align: center;
   color: var(--white);
@@ -515,7 +506,7 @@ html {
   width: 200px;
   height: 60px;
   position: absolute;
-  left: 600;
+  left: 620;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -541,7 +532,7 @@ html {
 }
 
 .mint_button button{
-  padding: 0.5% 5%;
+  padding: 0.5% 6%;
   background: var(--green);
   color: var(--dark-grey);
   border: none;
@@ -586,6 +577,17 @@ color: var(--white);
 
 /* Big screen and tabs */
 @media only screen and (min-width: 768px) {
+  .mint_form{
+    border: 2px solid var(--green);
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    background: url(/assets/dog3.png), url(/assets/dog7.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: left, right;
+  }
+
   .timeline::before {
     content: "";
     position: absolute;
@@ -828,6 +830,36 @@ color: var(--white);
     text-align: center;
     font-size: 35px;
     color: var(--white);
+  }
+
+  .mint_form{
+    border: 2px solid var(--green);
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    background: none;
+  }
+
+  .wrapper{
+    text-align: center;
+    background: var(--white);
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 10px;
+  }
+
+  .mint_button button{
+    text-align: center;
+    padding: 0.5% 5%;
+    background: var(--green);
+    color: var(--dark-grey);
+    border: none;
   }
 }
 

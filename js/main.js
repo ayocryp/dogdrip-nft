@@ -47,39 +47,27 @@ let launchDate = setInterval(function () {
   }
 }, 1000);
 
-
 // Mint form
 
-const minus = document.querySelector('.minus')
-const plus = document.querySelector('.plus')
-const num = document.querySelector('.num')
+const minus = document.querySelector(".minus");
+const plus = document.querySelector(".plus");
+const num = document.querySelector(".num");
 
 let a = 1;
 
 plus.addEventListener("click", () => {
-  
   if (a <= 4) {
-    a++
+    a++;
   }
   // a = (a < 10) ? a : a;
   num.innerHTML = a;
-
 });
-
 
 minus.addEventListener("click", () => {
-  
   if (a > 1) {
-    a--
+    a--;
   }
-  
+
   // a = (a < 5) ? a : a;
   num.innerHTML = a;
-
 });
-
-
-
-
-
-
