@@ -472,15 +472,91 @@ html {
 
 /* Footer */
 
+.mint_form{
+  border: 2px solid var(--green);
+  border-radius: 20px;
+  width: 250px;
+  height: 500px;
+  background: url(/assets/dog3.png), url(/assets/dog7.png);
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position: left, right;
+}
+.mint_form p{
+  text-align: center;
+  color: var(--white);
+  margin-top: 3%;
+}
+
+.mint_wallet{
+  text-align: center;
+  color: var(--white);
+  font-weight: 100;
+}
+.mint_title{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 55px;
+  color: var(--white);
+}
+.mint_count{
+  margin-top: 1%;
+  text-align: center;
+  color: var(--white);
+  font-size: 17px;
+}
+.mint_count span{
+  color: var(--green);
+  font-size: 22px;
+}
+.wrapper{
+  text-align: center;
+  background: var(--white);
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  left: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+.wrapper span{
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+.wrapper span.num{
+  font-size: 30px;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+
+.mint_button{
+  text-align: center;
+  margin-top: 110px;
+}
+
+.mint_button button{
+  padding: 0.5% 5%;
+  background: var(--green);
+  color: var(--dark-grey);
+  border: none;
+}
 #footer{
   padding: 10%;
   font-family: var(--primary-font);
   background: url(/assets/bg/v1_footer_bg.png);
+  
 }
 .footer_title{
   text-align: center;
   font-size: 55px;
   color: var(--white);
+  margin-top: 3.5%;
 }
 
 .button_ctn{
