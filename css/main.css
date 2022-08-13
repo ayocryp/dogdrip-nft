@@ -16,17 +16,29 @@
 #nav-bg .logo {
   text-decoration: none;
   color: #07fea3;
-  font-size: 30px;
+  font-size: 35px;
   margin-right: 8%;
+}
+#nav-bg .menu-item {
+  color: #e8eaea;
+  font-size: 23px;
+}
+#nav-bg .menu-item:hover {
+  color: #07fea3;
 }
 
 #main-container {
-  margin: 4%;
+  margin: 6%;
+}
+@media screen and (max-width: 900px) {
+  #main-container {
+    margin-top: 10%;
+  }
 }
 #main-container .card {
   text-align: center;
   border-radius: 15px;
-  padding: 0% 4%;
+  padding: 0% 8%;
 }
 #main-container .card #profile-img {
   border: 3px solid #11181e;
@@ -38,11 +50,29 @@
   border-radius: 15px;
   padding: 0% 2%;
 }
+@media screen and (max-width: 900px) {
+  #main-container .card-2 {
+    margin-top: 5%;
+  }
+}
 #main-container .card-2 .inner-card {
   background-color: #11181e;
   color: #e8eaea;
-  padding: 6%;
+  padding: 6% 7%;
   border-radius: 10px;
   margin: 3%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+footer {
+  margin-top: 15%;
+  color: #e8eaea;
+}
+footer .footer-inner-container {
+  text-align: center;
+  background-color: #11181e;
+  padding: 1%;
+}
+footer .footer-inner-container .footer-text {
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
