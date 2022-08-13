@@ -53,6 +53,10 @@ $white: #e8eaea;
 
   margin: 6%;
 
+  @include responsive(phone){
+    margin-top:10%;
+  }
+
   
 
   .card{
