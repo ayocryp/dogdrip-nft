@@ -1,3 +1,7 @@
+@import 'mediaqueries';
+
+
+
 
 // Color
 $Black: #030d12;
@@ -19,12 +23,27 @@ $white: #e8eaea;
 #nav-bg {
   background-color: $Dark-grey;
   padding: 2% 0%;
+
+
   .logo {
     text-decoration: none;
     color: $Green;
-    font-size: 30px;
+    font-size: 35px;
     margin-right: 8%;
   }
+
+  .menu-item{
+    color: $white;
+    font-size: 23px;
+
+   
+  }
+  .menu-item:hover{
+    color: $Green;
+
+  }
+
+
 }
 
 
@@ -32,13 +51,14 @@ $white: #e8eaea;
 
 #main-container{
 
-  margin: 4%;
+  margin: 6%;
+
   
 
   .card{
     text-align: center;
     border-radius: 15px;
-    padding: 0% 4%;
+    padding: 0% 8%;
 
 
     #profile-img{
@@ -54,6 +74,10 @@ $white: #e8eaea;
   .card-2{
     border-radius: 15px;
     padding: 0% 2%;
+
+    @include responsive(phone){
+      margin-top: 5%;
+    }
     
     
 
@@ -61,7 +85,7 @@ $white: #e8eaea;
 
       background-color: $Dark-grey;
       color: $white;
-      padding: 6%;
+      padding: 6% 7%;
       border-radius: 10px;
       margin: 3%;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -70,3 +94,21 @@ $white: #e8eaea;
   }
   
 }
+
+footer{
+  margin-top: 15%;
+  
+  color: $white;
+
+  .footer-inner-container{
+    text-align: center;
+    background-color: $Dark-grey;
+    padding: 1%;
+
+    .footer-text{
+      font-size: 20px;
+    }
+   
+  }
+}
+
